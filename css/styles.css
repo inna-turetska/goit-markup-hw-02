@@ -1,49 +1,59 @@
 body{
-    font-family: "Roboto", "Raleway", sans-serif;
-    color:black ;
-    background-color: white;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color: #434455;
 }
 /*header*/
-ul{
+ul, ol {
     list-style-type: none;
+}
+a{
     text-decoration: none;
 }
 
-.logo-start {
+.header-logo {
     font-family: "Raleway", sans-serif;
     color: #2e2f42;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
 
-.logo-start-item {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.16667;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.header-logo .logo-part {
     color: #4d5ae5;
-    text-decoration: none;
-}
-.link{
-    font-family: "Roboto", sans-serif;
-    color:#2e2f42;
-    list-style-type: none;
-    background-color: white;
-    text-decoration: none;
-
 }
 
-.contacts{
-    font-family: "Roboto", sans-serif;
-        color: #434455;
-        background-color: white;
+/*navigation list*/
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.nav-link:hover, .nav-link:focus{
+    color: #404bbf;
+} 
+
+/*contacs*/
+
+.contacts {
         font-style: normal;
-        text-decoration: none;
+}
+.contacts-link{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
 }
 /*header-end*/
 
@@ -52,46 +62,45 @@ ul{
     background-color: #2e2f42;
     text-align: center;
 
+    /*solutions*/
 }
-.solution{
-    font-family: "Roboto", sans-serif;
+.main-solution{
     font-weight: 700;
     font-size: 56px;
     color: #fff;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
 
 }
 .button{
-    font-family: "Roboto", sans-serif;
     color: #fff;
     background-color: #4d5ae5;   
     letter-spacing: 0.04em;
     text-align: center;
 }
 .solution-title{
-    font-family: "Roboto", sans-serif;
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    letter-spacing: 0.02em;
-    color: #2e2f42;
+   color: #2e2f42;
     
 }
 .solution-text {
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+   
 }
+
+/*team*/
+
 .team-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -101,7 +110,6 @@ ul{
     background: #f4f4fd;
 }
 .team-member{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -109,36 +117,36 @@ ul{
     color: #2e2f42;
 }
 .team-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    
 }
-.title{
-    font-family: "Roboto", sans-serif;
+
+/*portfolio*/
+
+.portfolio{
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+.portfolio-main-title{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
-    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
-    color: #2e2f42;
+    
 }
 .portfolio-title{
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
+
 .portfolio-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -146,25 +154,27 @@ ul{
 
 /*footer*/
 
-.footer{
+.footer-page{
     background: #2e2f42;
+    color: #f4f4fd;
+}
+
+.footer-logo .logo-part {
+    color: #f4f4fd;
 }
 
 .footer-text{
-    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
 }
 .logo-end{
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
 text-decoration: none;
 }
 
