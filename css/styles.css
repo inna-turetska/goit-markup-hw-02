@@ -118,6 +118,10 @@ a{
 
 .team{
     background-color: #F4F4FD;
+    
+}
+.team-item {
+    background-color: #FFFFFF
 }
 .team-member{
     font-weight: 500;
@@ -135,9 +139,7 @@ a{
 }
 
 /*portfolio*/
-.portfolio-list {
-    background-color: #FFFFFF;
-}
+
 
 .portfolio {
     color: #2e2f42;
