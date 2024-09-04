@@ -13,7 +13,7 @@ a{
 
 .header-logo {
     font-family: "Raleway", sans-serif;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 18px;
@@ -23,7 +23,7 @@ a{
 }
 
 .header-logo .logo-part {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 /*navigation list*/
@@ -53,7 +53,7 @@ a{
 }
 .contacts-link:hover,
 .contacts-link:focus {
-    color: #404bbf;
+    color: #404BBF;
 }
 /*header-end*/
 
@@ -78,6 +78,9 @@ a{
     background-color: #4d5ae5;   
     letter-spacing: 0.04em;
     text-align: center;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer
 }
 .solution-title{
    font-weight: 500;
@@ -129,12 +132,16 @@ a{
 .portfolio{
     color: #2e2f42;
     letter-spacing: 0.02em;
+    background-color: #FFFFFF;
+   
 }
 .portfolio-main-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em
     
 }
 .portfolio-title{
@@ -169,13 +176,14 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.logo-end{
+.footer-logo{
 font-weight: 700;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
+color:#4d5ae5;
 }
 
 .logo-end-item{
